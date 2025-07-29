@@ -153,9 +153,9 @@ str or None
                     <br />
                     <sub><b>Ankit Guria</b></sub>
                 </a>
-             </td>
-	</tr>
-<tbody>
+            </td>
+		</tr>
+	<tbody>
 </table>
 <!-- readme: contributors -end -->
 
