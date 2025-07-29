@@ -1,5 +1,3 @@
-[![PyPI Downloads](https://static.pepy.tech/badge/streamlit-free-text-select)](https://pepy.tech/projects/streamlit-free-text-select)
-[![PyPI version](https://img.shields.io/pypi/v/streamlit-free-text-select.svg)](https://pypi.org/project/streamlit-free-text-select/)
 
 
 # Streamlit free text select
@@ -8,7 +6,7 @@ component.
 
 ## Installation
 ```bash
-pip install streamlit-free-text-select
+pip install streamlit-smart-text-input
 ```
 
 ## Usage (Example 1)
