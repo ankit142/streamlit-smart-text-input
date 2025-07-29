@@ -13,3 +13,43 @@ node_modules/
 build/
 .DS_Store
 streamlit_smart_text_input.mov
+# Python
+*.pyc
+__pycache__/
+env/
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Streamlit
+.streamlit/
+*.tfrecord
+*.ckpt
+
+# Output folders
+dist/
+build/
+*.egg-info/
+
+# VSCode/IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Video files
+*.mov
+*.mp4
+
+# Git
+*.log
+*.bak
+*.swp
+
+
