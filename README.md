@@ -12,7 +12,7 @@ pip install streamlit-smart-text-input
 ## Usage (Example 1)
 ```python
 import streamlit as st
-from streamlit_smarttext_input import st_smart_text_input
+from streamlit_smart_text_input import st_smart_text_input
 
 st.set_page_config(page_title="SmartText Input Demo", layout="centered")
 st.title("Streamlit SmartText Input Test")
@@ -47,11 +47,11 @@ st.caption("Press ⏎ Enter after typing to trigger input capture.")
 
 ```
 
-## Usage (Example 1)
+## Usage (Example 2)
 
 ```python
 import streamlit as st
-from streamlit_smarttext_input import st_smart_text_input
+from streamlit_smart_text_input import st_smart_text_input
 
 st.set_page_config(page_title="SmartText Chat Thread", layout="centered")
 st.title("Streamlit SmartText Chat")
@@ -140,6 +140,18 @@ Returns
 str or None
     The value of the free text select input.
 
+
+## 📽 Demo
+
+<video src="demo.mp4" controls width="600"></video>
+
+
+## 📽 Watch us on YouTube
+
+[![Watch on YouTube](https://youtu.be/pEa9vw7NpFA)](https://youtu.be/pEa9vw7NpFA)
+
+
+
 ## Contributors
 <!-- readme: contributors -start -->
 <table>
@@ -147,16 +159,11 @@ str or None
 		<tr>
             <td align="center">
                 <a href="https://github.com/ankit142">
-<<<<<<< HEAD
-                    <img src="https://avatars.githubusercontent.com/u/39993421?v=4" width="100;" alt="ankit142"/>
-=======
                     <img src="https://avatars.githubusercontent.com/ankit142" width="100;" alt="Ankit Guria"/>
->>>>>>> c51640f (Add compressed demo video)
                     <br />
                     <sub><b>Ankit Guria</b></sub>
                 </a>
             </td>
-            
 		</tr>
 	<tbody>
 </table>
@@ -164,5 +171,5 @@ str or None
 
 ## Release Notes
 
-- 0.0.5:
-    Initial release.
+- 1.0.9:
+    Current release.

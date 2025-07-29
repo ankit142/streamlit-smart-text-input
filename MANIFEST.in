@@ -1,0 +1,9 @@
+recursive-include streamlit_smart_text_input/frontend/build *
+include README.md
+exclude .DS_Store
+prune tests
+prune .github
+recursive-include streamlit_smart_text_input/frontend/build *
+
+
+

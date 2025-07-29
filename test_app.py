@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_smarttext_input import st_smart_text_input
+from streamlit_smart_text_input import st_smart_text_input
 
 st.set_page_config(page_title="SmartText Input Demo", layout="centered")
 st.title("Streamlit SmartText Input Test")
