@@ -1,8 +1,8 @@
 
 
-# Streamlit free text select
+# Streamlit Smart Text Input
 This component implements a selectbox that allows free text input. It is based on React-Select's 'Select'
-component.
+component. 
 
 ## Installation
 ```bash
