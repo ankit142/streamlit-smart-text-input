@@ -143,7 +143,7 @@ str or None
 
 ## 📽 Demo
 
-<video src="demo.mp4" controls width="600"></video>
+<video src="https://github.com/ankit142/streamlit-smarttext-input/blob/main/demo.mp4" controls width="600"></video>
 
 
 ## 📽 Watch us on YouTube
