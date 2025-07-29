@@ -143,7 +143,7 @@ str or None
 
 ## 📽 Demo
 
-![demo](./streamlit-free-text-demo.gif)
+![demo](./demo.mp4)
 
 Or watch the full video:
 
