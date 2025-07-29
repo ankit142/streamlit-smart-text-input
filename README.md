@@ -146,7 +146,7 @@ str or None
 
 ## 📽 Watch the demo on YouTube
 
-[![Watch on YouTube](https://youtu.be/pEa9vw7NpFA)](https://youtu.be/pEa9vw7NpFA)
+[![Watch Demo on YouTube](https://img.youtube.com/vi/pEa9vw7NpFA/0.jpg)](https://youtu.be/pEa9vw7NpFA)
 
 
 
