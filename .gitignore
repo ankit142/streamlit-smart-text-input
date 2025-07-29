@@ -45,7 +45,6 @@ Thumbs.db
 
 # Video files
 *.mov
-*.mp4
 
 # Git
 *.log
