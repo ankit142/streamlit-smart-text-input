@@ -146,18 +146,21 @@ str or None
 <!-- readme: contributors -start -->
 <table>
 	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/ankit142">
+                    <img src="https://avatars.githubusercontent.com/ankit142" width="100;" alt="Ankit Guria"/>
+                    <br />
+                    <sub><b>Ankit Guria</b></sub>
+                </a>
+            </td>
+            
+		</tr>
 	<tbody>
 </table>
 <!-- readme: contributors -end -->
 
 ## Release Notes
-- 0.3.0:
-    Enhancement: Support for `disabled=True` and updated styling to match streamlit-1.45.0. by [kevintcaron](https://github.com/kevintcaron)
-- 0.2.0:
-    Enhancement: Allow dynamic updating of the options. by [LorianColtof](https://github.com/LorianColtof)
-- 0.1.2:
-    Bug fix: Fixed issue with `index=0` not selecting the first option.
-- 0.1.1:
-    Added the `label_visibility` and `index` parameters.
+
 - 0.0.5:
     Initial release.
