@@ -147,11 +147,16 @@ str or None
 		<tr>
             <td align="center">
                 <a href="https://github.com/ankit142">
+<<<<<<< HEAD
                     <img src="https://avatars.githubusercontent.com/u/39993421?v=4" width="100;" alt="ankit142"/>
+=======
+                    <img src="https://avatars.githubusercontent.com/ankit142" width="100;" alt="Ankit Guria"/>
+>>>>>>> c51640f (Add compressed demo video)
                     <br />
                     <sub><b>Ankit Guria</b></sub>
                 </a>
             </td>
+            
 		</tr>
 	<tbody>
 </table>
