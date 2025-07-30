@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>streamlit-smarttext-input</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    header nav a {
+      margin-left: 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .gif-preview {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .gif-preview img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .buttons {
+      margin: 2rem 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .buttons a {
+      padding: 0.7rem 1.2rem;
+      background: #007acc;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .buttons a:hover {
+      background: #005f99;
+    }
+
+    code {
+      background: #eee;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer a {
+      color: #007acc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="./9ac63c24-a84d-48d2-a3ae-3b5034e57600.png" alt="Logo" />
+    </div>
+    <nav>
+      <a href="https://github.com/ankit142/streamlit-smarttext-input" target="_blank">GitHub</a>
+      <a href="https://www.npmjs.com/package/streamlit-smarttext-input" target="_blank">npm</a>
+      <a href="https://buymeacoffee.com/ankitguria" target="_blank">Support Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1> streamlit-smarttext-input</h1>
+    <p>Autocomplete meets free text in Streamlit! Create smart input boxes with fixed and user-defined values effortlessly.</p>
+
+    <div class="gif-preview">
+      <img src="./streamlit-free-text-demo.gif" alt="Component Demo">
+    </div>
+
+    <div class="buttons">
+      <a href="https://github.com/ankit142/streamlit-smarttext-input" target="_blank">View on GitHub</a>
+      <a href="https://youtu.be/pEa9vw7NpFA" target="_blank">Watch Demo</a>
+      <a href="https://www.npmjs.com/package/streamlit-smarttext-input" target="_blank">npm Package</a>
+    </div>
+
+    <h2> Installation</h2>
+    <p>To install the component in your Streamlit app:</p>
+    <pre><code>pip install streamlit-smarttext-input</code></pre>
+
+    <h2> Example Usage</h2>
+    <pre><code>import streamlit as st
+from streamlit_smart_text_input import st_smart_text_input
+
+st.set_page_config(page_title="SmartText Input Demo", layout="centered")
+st.title("Streamlit SmartText Input Test")
+
+# Options to test with
+options = ["Toyota", "BMW", "Tesla", "Ford", "Audi", "Mercedes", "Honda"]
+
+
+# Call the custom component
+value = st_smart_text_input(
+    label="Choose or Type a Fruit or Greeting",
+    options=options,
+    index=None,
+    placeholder="Start typing and press Enter...",
+    delay=200,
+    disabled=False,
+    label_visibility="visible",
+)
+
+# Display what was selected or typed
+if value:
+    if value.lower() in [o.lower() for o in options]:
+        st.info(f"'{value}' is a known car brand from the list.")
+    elif value.lower() in ["hi", "hey", "hello"]:
+        st.info("Hello, I am a Python package crafted by [Ankit Guria](https://github.com/ankitguria).")
+    else:
+        st.warning(f"'{value}' is a new input. You can add this to the list!")
+
+# UI Divider
+st.markdown("---")
+st.caption("Press ⏎ Enter after typing to trigger input capture.")
+</code></pre>
+
+  </main>
+
+  <footer>
+    Made with ❤️ by <a href="https://github.com/ankit142">Ankit Guria</a> — <a href="https://buymeacoffee.com/ankitguria">Buy me a coffee</a>
+  </footer>
+</body>
+</html>
